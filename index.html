@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TUI Grid Example</title>
+  <!-- TUI Grid CSS -->
+  <link rel="stylesheet" href="https://uicdn.toast.com/tui.grid/latest/tui-grid.css">
+  <style>
+    /* 셀 안에서 버튼 가운데 정렬 */
+    .button-container {
+      display: flex;
+      justify-content: center; /* 수평 가운데 정렬 */
+      align-items: center;    /* 수직 가운데 정렬 */
+      height: 100%;           /* 셀 높이에 맞춤 */
+    }
+  </style>
+</head>
+<body>
+  <h1>Links</h1>
+  <div id="grid"></div>
+
+  <!-- TUI Grid JS -->
+  <script src="https://uicdn.toast.com/tui.grid/latest/tui-grid.js"></script>
+  <script>
+    // 데이터 정의
+    const data = [
+      { id: 1, type:"Three.js", title: 'Light', link: 'https://three-js-ights.vercel.app/'},
+      { id: 2, type:"Three.js", title: 'Hunted-house', link: 'https://hunted-house-delta.vercel.app/' }
+    ];
+
+    // 커스텀 렌더러: 버튼 생성
+    class LinkButtonRenderer {
+      constructor(props) {
+        // 컨테이너 생성
+        const container = document.createElement('div');
+        container.className = 'button-container'; // Flexbox 스타일 적용
+
+        const el = document.createElement('button');
+        el.textContent = 'Go';
+        el.style.padding = '2px 5px'; // 크기 조정을 위한 패딩
+        el.style.fontSize = '12px'; // 폰트 크기 축소
+        el.style.height = '25px'; // 높이 조정
+        el.style.width = '50px'; // 버튼 너비 조정
+        el.style.backgroundColor = '#007BFF';
+        el.style.color = '#fff';
+        el.style.border = 'none';
+        el.style.borderRadius = '4px'; // 버튼 모서리 둥글게
+        el.style.cursor = 'pointer';
+
+        // 버튼 클릭 이벤트
+        el.addEventListener('click', () => {
+          const link = props.value; // 데이터의 링크 값 가져오기
+          window.open(link, '_blank'); // 새 창으로 링크 열기
+        });
+
+        container.appendChild(el); // 컨테이너 안에 버튼 추가
+        this.el = container;
+      }
+
+      getElement() {
+        return this.el;
+      }
+
+      render(props) {
+        // 필요 시 동적 텍스트 변경 가능
+      }
+    }
+
+    // 컬럼 정의
+    const columns = [
+    { header: 'Type', name: 'type' ,width:200},
+    { header: 'Title', name: 'title'},
+      { 
+        header: '바로가기', 
+        name: 'link',
+        width: 150,
+        renderer: {
+          type: LinkButtonRenderer // 커스텀 렌더러 적용
+        }
+      }
+    ];
+
+    // TUI Grid 초기화
+    const grid = new tui.Grid({
+      el: document.getElementById('grid'),
+      data,
+      columns,
+      rowHeaders: ['rowNum'], // Row 번호 표시
+      bodyHeight: 'fitToParent' // 높이 자동 맞춤
+    });
+  </script>
+</body>
+</html>
