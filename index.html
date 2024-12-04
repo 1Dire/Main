@@ -1,24 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sangwoo Lee's  ToyProject📝</title>
+    <title>Sangwoo Lee's ToyProject📝</title>
+    
     <!-- TUI Grid CSS -->
     <link rel="stylesheet" href="https://uicdn.toast.com/tui.grid/latest/tui-grid.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/snow.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJ+6CwXwEw2qmiS4cFb4XwoqJHk15l8ujSFWJWJklXZ9gghW+Z9ySTnpqk+a" crossorigin="anonymous">
   </head>
+  
   <body>
-    <h1>Sangwoo Lee's  ToyProject 💻</h1>
-    <section class="intro">
-      <p>이 페이지는 제가 학습한 내용과 실습을 기록하고 공유하는 곳입니다. 다양한 기술과 도구들을 실험하고, 그 과정에서 배운 점들을 기록하여 발전해 나가고 있습니다. 각 프로젝트를 통해 얻은 경험을 나누고, 다른 사람들과 소통하며 더 나은 개발자가 되기 위해 노력하고 있습니다.</p>
-      <p>웹 개발, 데이터 분석, 그리고 기타 다양한 주제를 다루며, 각 프로젝트는 제 개인적인 학습과 성장의 여정을 담고 있습니다.</p>
-      <p><strong>이 페이지는 차차 업데이트 됩니다.</strong> 새로운 프로젝트와 학습 내용이 추가될 예정이니, 자주 방문해주세요!</p>
+    <h1 class="text-center mt-3 mb-4">Sangwoo Lee's ToyProject 💻</h1>
+    
+    <div class="language-buttons mb-4">
+      <button class="language-btn selected" data-language="ko" id="btn-ko">
+        <img src="https://flagcdn.com/w320/kr.png" alt="한국어" />
+      </button>
+      <button class="language-btn" data-language="en" id="btn-en">
+        <img src="https://flagcdn.com/w320/us.png" alt="English" />
+      </button>
+    </div>
+    
+    <section class="intro pb-3 mb-4">
+      <p data-i18n="introText1" class="mb-3">
+        이 페이지는 제가 학습한 내용과 실습을 기록하고 공유하는 곳입니다. 다양한 기술과 도구들을 실험하고, 그 과정에서 배운 점들을 기록하여 발전해 나가고 있습니다. 각 프로젝트를 통해 얻은 경험을 나누고, 다른 사람들과 소통하며 더 나은 개발자가 되기 위해 노력하고 있습니다.
+      </p>
+      <p data-i18n="introText2" class="mb-3">
+        웹 개발, 데이터 분석, 그리고 기타 다양한 주제를 다루며, 각 프로젝트는 제 개인적인 학습과 성장의 여정을 담고 있습니다.
+      </p>
+      <p>
+        <strong data-i18n="introText3">이 페이지는 차차 업데이트 됩니다.</strong>
+      </p>
     </section>
-    <div id="grid" style="height: 300px;"></div>
+    
+    <section>
+      <div id="grid" style="height: 600px; margin-bottom:30px"></div>
+    </section>
+    
+    <footer class="footer mt-5 pb-3 text-center">
+      <div class="footer-content">
+        <p>🎄 Merry Christmas and Happy Holidays! 🎅</p>
+        <p>Made with ❤️ by Sangwoo Lee</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-kaVZ2p20NMb2t4AqFdbBd2CTkCQ7WwRGH0HX14bf3wwGppJ83wYkD9K1J72QCUcC" crossorigin="anonymous"></script>
+
     <!-- TUI Grid JS -->
     <script src="https://uicdn.toast.com/tui.grid/latest/tui-grid.js"></script>
-    <script src="scripts.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="js/grid.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/snow.js"></script>
   </body>
 </html>

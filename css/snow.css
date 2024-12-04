@@ -1,0 +1,48 @@
+/* 눈송이 애니메이션 */
+@keyframes snowfall {
+    0% {
+      top: -10px;
+      opacity: 1;
+    }
+    100% {
+      top: 100vh; /* 화면 높이를 기준으로 내려가도록  */
+      opacity: 1;
+    }
+  }
+  
+  .snowflake {
+    position: absolute;
+    top: -10px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: snowfall 10s linear infinite;
+  
+  }
+  
+  .snowflake:nth-child(odd) {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .snowflake:nth-child(even) {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* 텍스트 빛나는 효과 */
+  .footer p {
+    animation: glow 1.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 5px #fff, 0 0 10px #ff6f61, 0 0 15px #ff6f61;
+    }
+    100% {
+      text-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 0 30px #ff6f61;
+    }
+  }
+  

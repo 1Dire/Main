@@ -189,7 +189,7 @@ const columns = [
 ];
 
 // TUI Grid 초기화
-fetch("./data.json")
+fetch("json/gridData.json")
   .then((response) => response.json())
   .then((data) => {
     const grid = new tui.Grid({
