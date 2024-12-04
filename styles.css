@@ -1,0 +1,40 @@
+/* 셀 안에서 버튼 또는 아이콘 가운데 정렬 */
+.button-container {
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  height: 100%; /* 셀 높이에 맞춤 */
+}
+
+.button-container button {
+  padding: 2px 5px;
+  font-size: 12px;
+  height: 25px;
+  width: 50px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* 애니메이션 추가 */
+}
+
+/* Hover 시 배경색과 크기 변화 */
+.button-container button:hover {
+  background-color: #0056b3;  /* 배경색 어두운 파랑으로 변경 */
+  transform: scale(1.1); /* 크기 1.1배 확대 */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* 그림자 효과 추가 */
+}
+
+/* GitHub 아이콘 스타일 */
+.github-icon {
+  width: 20px; /* 아이콘 크기 */
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease; /* 아이콘 애니메이션 */
+}
+
+.github-icon:hover {
+  transform: scale(1.2); /* 아이콘 확대 */
+  filter: brightness(1.2); /* 밝기 증가 */
+}
