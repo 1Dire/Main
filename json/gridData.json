@@ -27,7 +27,7 @@
     "id": 4,
     "type": "Three.js",
     "title": "Galaxy",
-    "link": "https://github.com/username/galaxy",
+    "link": "https://galaxy-generator-lilac.vercel.app/",
     "github": "https://github.com/1Dire/galaxy-generator",
     "thumbnail": "./img/thumbnail/galaxy.png"
   },
