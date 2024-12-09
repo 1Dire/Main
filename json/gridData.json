@@ -66,5 +66,14 @@
     "title": "Data-jpa",
     "link": "",
     "github": "https://github.com/1Dire/data-jpa"
+  },
+  {
+    "id": 9,
+    "type": "Three.js",
+    "title": "Physics",
+    "link": "https://physics-inky-five.vercel.app/",
+    "github": "https://github.com/1Dire/haunted-house",
+    "thumbnail": "./img/thumbnail/physics.png"
   }
+ 
 ]
