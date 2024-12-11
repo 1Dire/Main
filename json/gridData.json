@@ -74,6 +74,16 @@
     "link": "https://physics-inky-five.vercel.app/",
     "github": "https://github.com/1Dire/physics",
     "thumbnail": "./img/thumbnail/physics.png"
+  },
+  {
+    "id": 10,
+    "type": "Three.js",
+    "title": "Import-models",
+    "link": "https://imported-models-kappa.vercel.app/",
+    "github": "https://github.com/1Dire/imported-models",
+    "thumbnail": "./img/thumbnail/import-models.png"
   }
+
+  
  
 ]
