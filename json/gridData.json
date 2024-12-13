@@ -90,7 +90,16 @@
     "link": "https://raycaster-and-mouse-events-iota.vercel.app/",
     "github": "https://github.com/1Dire/raycaster-and-mouse-events",
     "thumbnail": "./img/thumbnail/raycaster-and-mouse-events.png"
+  },
+  {
+    "id": 12,
+    "type": "Three.js",
+    "title": "Custom-models-with-blender",
+    "link": " https://custom-models-with-blender-zeta.vercel.app/",
+    "github": "https://github.com/1Dire/custom-models-with-blender",
+    "thumbnail": "./img/thumbnail/custom-models-with-blender.png"
   }
+ 
 
   
  
