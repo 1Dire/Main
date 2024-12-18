@@ -114,8 +114,14 @@
     "link": "https://realistic-render-lake.vercel.app/",
     "github": "https://github.com/1Dire/realistic-render",
     "thumbnail": "./img/thumbnail/realistic-render.png"
+  },
+  {
+    "id": 15,
+    "type": "Three.js",
+    "title": "Code-structuring-for-bigger-projects",
+    "link": "https://code-structuring-for-bigger-projects-eta.vercel.app/",
+    "github": "https://github.com/1Dire/code-structuring-for-bigger-projects",
+    "thumbnail": "./img/thumbnail/code-structuring-for-bigger-projects.png"
   }
- 
-  
- 
 ]
+
