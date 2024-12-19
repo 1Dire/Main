@@ -122,6 +122,14 @@
     "link": "https://code-structuring-for-bigger-projects-eta.vercel.app/",
     "github": "https://github.com/1Dire/code-structuring-for-bigger-projects",
     "thumbnail": "./img/thumbnail/code-structuring-for-bigger-projects.png"
+  },
+  {
+    "id": 16,
+    "type": "Three.js",
+    "title": "Shaders",
+    "link": "https://shaders-pink.vercel.app/",
+    "github": "https://github.com/1Dire/shaders",
+    "thumbnail": "./img/thumbnail/shaders.png"
   }
 ]
 
