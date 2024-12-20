@@ -192,14 +192,16 @@ const columns = [
 fetch("json/gridData.json")
   .then((response) => response.json())
   .then((data) => {
+    // 데이터를 역순으로 정렬
+    const reversedData = data.reverse();
+
     const grid = new tui.Grid({
       el: document.getElementById("grid"),
-      data,
+      data: reversedData,  // 역순으로 정렬된 데이터를 사용
       columns,
       rowHeaders: ["rowNum"],
       bodyHeight: "fitToParent",
       rowHeight: 110,
-      
     });
   })
   .catch((error) => {

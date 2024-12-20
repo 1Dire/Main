@@ -130,6 +130,22 @@
     "link": "https://shaders-pink.vercel.app/",
     "github": "https://github.com/1Dire/shaders",
     "thumbnail": "./img/thumbnail/shaders.png"
+  },
+  {
+    "id": 17,
+    "type": "Three.js",
+    "title": "Shader-patterns",
+    "link": "https://shader-patterns-rho.vercel.app/",
+    "github": "https://github.com/1Dire/shader-patterns",
+    "thumbnail": "./img/thumbnail/shader-patterns.png"
+  },
+  {
+    "id": 18,
+    "type": "Three.js",
+    "title": "Raging-sea",
+    "link": "https://raging-sea-psi.vercel.app/",
+    "github": "https://github.com/1Dire/raging-sea",
+    "thumbnail": "./img/thumbnail/raging-sea.png"
   }
 ]
 
