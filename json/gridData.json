@@ -146,6 +146,15 @@
     "link": "https://raging-sea-psi.vercel.app/",
     "github": "https://github.com/1Dire/raging-sea",
     "thumbnail": "./img/thumbnail/raging-sea.png"
+  },
+  {
+    "id": 18,
+    "type": "Three.js",
+    "title": "Animated-galaxy",
+    "link": "https://animated-galaxy-black.vercel.app/",
+    "github": "https://github.com/1Dire/animated-galaxy",
+    "thumbnail": "./img/thumbnail/animated-galaxy.png"
   }
+
 ]
 
