@@ -154,7 +154,14 @@
     "link": "https://animated-galaxy-black.vercel.app/",
     "github": "https://github.com/1Dire/animated-galaxy",
     "thumbnail": "./img/thumbnail/animated-galaxy.png"
+  },
+  {
+    "id": 19,
+    "type": "Three.js",
+    "title": "Animated-galaxy",
+    "link": "https://dire-post-processing.vercel.app/",
+    "github": "https://github.com/1Dire/post-processing",
+    "thumbnail": "./img/thumbnail/post-processing.png"
   }
 
 ]
-
