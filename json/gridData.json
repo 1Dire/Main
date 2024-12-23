@@ -162,6 +162,13 @@
     "link": "https://dire-post-processing.vercel.app/",
     "github": "https://github.com/1Dire/post-processing",
     "thumbnail": "./img/thumbnail/post-processing.png"
+  },
+  {
+    "id": 20,
+    "type": "Three.js",
+    "title": "Animated-galaxy",
+    "link": "https://dire-intro-and-loding-progress.vercel.app/",
+    "github": "https://github.com/1Dire/intro-and-loading-progress",
+    "thumbnail": "./img/thumbnail/intro-and-loading-progress.png"
   }
-
 ]
