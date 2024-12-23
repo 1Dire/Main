@@ -94,10 +94,10 @@ class GithubIconRenderer {
 }
 
 // 커스텀 렌더러: 썸네일 이미지
-class ThumbnailRenderer {
+class PreviewRenderer {
   constructor(props) {
     const container = document.createElement("div");
-    container.className = "thumbnail-container";
+    container.className = "preview-container";
 
     container.style.display = "flex";
     container.style.justifyContent = "center"; // 가로 정렬
@@ -119,7 +119,7 @@ class ThumbnailRenderer {
     } else {
       const img = document.createElement("img");
       img.src = props.value;
-      img.alt = "Thumbnail";
+      img.alt = "Preview";
       img.style.width = "150px";
       img.style.height = "101px";
       img.style.objectFit = "cover"; // 이미지 비율 유지
@@ -179,11 +179,11 @@ const columns = [
     },
   },
   {
-    header: "Thumbnail", // 새로 추가한 컬럼
-    name: "thumbnail", // 데이터에서 썸네일 필드 이름
+    header: "Preview", // 새로 추가한 컬럼
+    name: "preview", // 데이터에서 썸네일 필드 이름
     width: 160,
     renderer: {
-      type: ThumbnailRenderer,
+      type: PreviewRenderer,
     },
   },
 ];

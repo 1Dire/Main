@@ -5,7 +5,7 @@
     "title": "Light",
     "link": "https://three-js-ights.vercel.app/",
     "github": "https://github.com/1Dire/Three.js-ights",
-    "thumbnail": "./img/thumbnail/light.png"
+    "preview": "./img/preview/light.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "title": "Hunted-house",
     "link": "https://hunted-house-delta.vercel.app/",
     "github": "https://github.com/1Dire/haunted-house",
-    "thumbnail": "./img/thumbnail/hunted-house.png"
+    "preview": "./img/preview/hunted-house.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "title": "Particles",
     "link": "https://particles-seven-zeta.vercel.app/",
     "github": "https://github.com/1Dire/Particles",
-    "thumbnail": "./img/thumbnail/particles.png"
+    "preview": "./img/preview/particles.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "title": "Galaxy",
     "link": "https://galaxy-generator-lilac.vercel.app/",
     "github": "https://github.com/1Dire/galaxy-generator",
-    "thumbnail": "./img/thumbnail/galaxy.png"
+    "preview": "./img/preview/galaxy.png"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "title": "Scroll-based-animation",
     "link": "https://scroll-based-animation-gray.vercel.app/",
     "github": "https://github.com/1Dire/scroll-based-animation",
-    "thumbnail": "./img/thumbnail/scroll-based-animation.png"
+    "preview": "./img/preview/scroll-based-animation.png"
   },
   {
     "id": 6,
@@ -73,7 +73,7 @@
     "title": "Physics",
     "link": "https://physics-inky-five.vercel.app/",
     "github": "https://github.com/1Dire/physics",
-    "thumbnail": "./img/thumbnail/physics.png"
+    "preview": "./img/preview/physics.png"
   },
   {
     "id": 10,
@@ -81,7 +81,7 @@
     "title": "Import-models",
     "link": "https://imported-models-kappa.vercel.app/",
     "github": "https://github.com/1Dire/imported-models",
-    "thumbnail": "./img/thumbnail/import-models.png"
+    "preview": "./img/preview/import-models.png"
   },
   {
     "id": 11,
@@ -89,7 +89,7 @@
     "title": "Raycaster-and-mouse-events",
     "link": "https://raycaster-and-mouse-events-iota.vercel.app/",
     "github": "https://github.com/1Dire/raycaster-and-mouse-events",
-    "thumbnail": "./img/thumbnail/raycaster-and-mouse-events.png"
+    "preview": "./img/preview/raycaster-and-mouse-events.png"
   },
   {
     "id": 12,
@@ -97,7 +97,7 @@
     "title": "Custom-models-with-blender",
     "link": " https://custom-models-with-blender-zeta.vercel.app/",
     "github": "https://github.com/1Dire/custom-models-with-blender",
-    "thumbnail": "./img/thumbnail/custom-models-with-blender.png"
+    "preview": "./img/preview/custom-models-with-blender.png"
   },
   {
     "id": 13,
@@ -105,7 +105,7 @@
     "title": "Environment-map",
     "link": "https://environment-map-three.vercel.app/",
     "github": "https://github.com/1Dire/environment-map",
-    "thumbnail": "./img/thumbnail/environment-map.png"
+    "preview": "./img/preview/environment-map.png"
   },
   {
     "id": 14,
@@ -113,7 +113,7 @@
     "title": "Realistic-render",
     "link": "https://realistic-render-lake.vercel.app/",
     "github": "https://github.com/1Dire/realistic-render",
-    "thumbnail": "./img/thumbnail/realistic-render.png"
+    "preview": "./img/preview/realistic-render.png"
   },
   {
     "id": 15,
@@ -121,7 +121,7 @@
     "title": "Code-structuring-for-bigger-projects",
     "link": "https://code-structuring-for-bigger-projects-eta.vercel.app/",
     "github": "https://github.com/1Dire/code-structuring-for-bigger-projects",
-    "thumbnail": "./img/thumbnail/code-structuring-for-bigger-projects.png"
+    "preview": "./img/preview/code-structuring-for-bigger-projects.png"
   },
   {
     "id": 16,
@@ -129,7 +129,7 @@
     "title": "Shaders",
     "link": "https://shaders-pink.vercel.app/",
     "github": "https://github.com/1Dire/shaders",
-    "thumbnail": "./img/thumbnail/shaders.png"
+    "preview": "./img/preview/shaders.png"
   },
   {
     "id": 17,
@@ -137,7 +137,7 @@
     "title": "Shader-patterns",
     "link": "https://shader-patterns-rho.vercel.app/",
     "github": "https://github.com/1Dire/shader-patterns",
-    "thumbnail": "./img/thumbnail/shader-patterns.png"
+    "preview": "./img/preview/shader-patterns.png"
   },
   {
     "id": 18,
@@ -145,7 +145,7 @@
     "title": "Raging-sea",
     "link": "https://raging-sea-psi.vercel.app/",
     "github": "https://github.com/1Dire/raging-sea",
-    "thumbnail": "./img/thumbnail/raging-sea.png"
+    "preview": "./img/preview/raging-sea.png"
   },
   {
     "id": 18,
@@ -153,22 +153,30 @@
     "title": "Animated-galaxy",
     "link": "https://animated-galaxy-black.vercel.app/",
     "github": "https://github.com/1Dire/animated-galaxy",
-    "thumbnail": "./img/thumbnail/animated-galaxy.png"
+    "preview": "./img/preview/animated-galaxy.png"
   },
   {
     "id": 19,
     "type": "Three.js",
-    "title": "Animated-galaxy",
+    "title": "Post-processing",
     "link": "https://dire-post-processing.vercel.app/",
     "github": "https://github.com/1Dire/post-processing",
-    "thumbnail": "./img/thumbnail/post-processing.png"
+    "preview": "./img/preview/post-processing.png"
   },
   {
     "id": 20,
     "type": "Three.js",
-    "title": "Animated-galaxy",
+    "title": "Intro-and-loading-progres",
     "link": "https://dire-intro-and-loding-progress.vercel.app/",
     "github": "https://github.com/1Dire/intro-and-loading-progress",
-    "thumbnail": "./img/thumbnail/intro-and-loading-progress.png"
+    "preview": "./img/preview/intro-and-loading-progress.png"
+  },
+  {
+    "id": 21,
+    "type": "Three.js",
+    "title": "Mixing-html-and-webgl",
+    "link": "https://dire-mixing-html-and-webgl.vercel.app/",
+    "github": "https://github.com/1Dire/mixing-html-and-webgl",
+    "preview": "./img/preview/mixing-html-and-webgl.png"
   }
 ]
