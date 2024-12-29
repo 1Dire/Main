@@ -178,5 +178,13 @@
     "link": "https://dire-mixing-html-and-webgl.vercel.app/",
     "github": "https://github.com/1Dire/mixing-html-and-webgl",
     "preview": "./img/preview/mixing-html-and-webgl.png"
+  },
+  {
+    "id": 22,
+    "type": "Three.js",
+    "title": "Blender",
+    "link": "https://dire-blender.vercel.app/",
+    "github": "https://github.com/1Dire/dire-blender",
+    "preview": "./img/preview/mixing-html-and-webgl.png"
   }
 ]
