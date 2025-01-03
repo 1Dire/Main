@@ -185,6 +185,14 @@
     "title": "Blender",
     "link": "https://dire-blender.vercel.app/",
     "github": "https://github.com/1Dire/dire-blender",
-    "preview": "./img/preview/mixing-html-and-webgl.png"
+    "preview": "./img/preview/blender.png"
+  },
+  {
+    "id": 23,
+    "type": "Three.js",
+    "title": "Load-models-with-r3f",
+    "link": "https://https://load-models-with-r3f-eta.vercel.app/",
+    "github": "https://github.com/1Dire/load-models-with-r3f/tree/main",
+      "preview": "./img/preview/load-models-with-r3f.png"
   }
 ]
