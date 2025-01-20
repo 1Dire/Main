@@ -194,5 +194,22 @@
     "link": "https://https://load-models-with-r3f-eta.vercel.app/",
     "github": "https://github.com/1Dire/load-models-with-r3f/tree/main",
       "preview": "./img/preview/load-models-with-r3f.png"
+  },
+  {
+    "id": 24,
+    "type": "Three.js",
+    "title": "Create-a-game",
+    "link": "https://dire-create-a-game-with-r3f.vercel.app/",
+    "github": "https://github.com/1Dire/dire-create-a-game-with-r3f/tree/main",
+    "preview": "./img/preview/create-a-game.png"
+  },
+  {
+    "id": 25,
+    "type": "Three.js",
+    "title": "Portfolio",
+    "link": "https://sangwoo-portfolio.vercel.app/",
+    "github": "https://github.com/1Dire/sangwoo-portfolio",
+    "preview": "./img/preview/portfolio.png"
   }
+
 ]
