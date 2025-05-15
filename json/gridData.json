@@ -5,7 +5,7 @@
     "title": "Light",
     "link": "https://three-js-ights.vercel.app/",
     "github": "https://github.com/1Dire/Three.js-ights",
-    "preview": "./img/preview/light.png"
+    "preview": "./images/preview/light.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "title": "Hunted-house",
     "link": "https://hunted-house-delta.vercel.app/",
     "github": "https://github.com/1Dire/haunted-house",
-    "preview": "./img/preview/hunted-house.png"
+    "preview": "./images/preview/hunted-house.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "title": "Particles",
     "link": "https://particles-seven-zeta.vercel.app/",
     "github": "https://github.com/1Dire/Particles",
-    "preview": "./img/preview/particles.png"
+    "preview": "./images/preview/particles.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "title": "Galaxy",
     "link": "https://galaxy-generator-lilac.vercel.app/",
     "github": "https://github.com/1Dire/galaxy-generator",
-    "preview": "./img/preview/galaxy.png"
+    "preview": "./images/preview/galaxy.png"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "title": "Scroll-based-animation",
     "link": "https://scroll-based-animation-gray.vercel.app/",
     "github": "https://github.com/1Dire/scroll-based-animation",
-    "preview": "./img/preview/scroll-based-animation.png"
+    "preview": "./images/preview/scroll-based-animation.png"
   },
   {
     "id": 6,
@@ -73,7 +73,7 @@
     "title": "Physics",
     "link": "https://physics-inky-five.vercel.app/",
     "github": "https://github.com/1Dire/physics",
-    "preview": "./img/preview/physics.png"
+    "preview": "./images/preview/physics.png"
   },
   {
     "id": 10,
@@ -81,7 +81,7 @@
     "title": "Import-models",
     "link": "https://imported-models-kappa.vercel.app/",
     "github": "https://github.com/1Dire/imported-models",
-    "preview": "./img/preview/import-models.png"
+    "preview": "./images/preview/import-models.png"
   },
   {
     "id": 11,
@@ -89,7 +89,7 @@
     "title": "Raycaster-and-mouse-events",
     "link": "https://raycaster-and-mouse-events-iota.vercel.app/",
     "github": "https://github.com/1Dire/raycaster-and-mouse-events",
-    "preview": "./img/preview/raycaster-and-mouse-events.png"
+    "preview": "./images/preview/raycaster-and-mouse-events.png"
   },
   {
     "id": 12,
@@ -97,7 +97,7 @@
     "title": "Custom-models-with-blender",
     "link": " https://custom-models-with-blender-zeta.vercel.app/",
     "github": "https://github.com/1Dire/custom-models-with-blender",
-    "preview": "./img/preview/custom-models-with-blender.png"
+    "preview": "./images/preview/custom-models-with-blender.png"
   },
   {
     "id": 13,
@@ -105,7 +105,7 @@
     "title": "Environment-map",
     "link": "https://environment-map-three.vercel.app/",
     "github": "https://github.com/1Dire/environment-map",
-    "preview": "./img/preview/environment-map.png"
+    "preview": "./images/preview/environment-map.png"
   },
   {
     "id": 14,
@@ -113,7 +113,7 @@
     "title": "Realistic-render",
     "link": "https://realistic-render-lake.vercel.app/",
     "github": "https://github.com/1Dire/realistic-render",
-    "preview": "./img/preview/realistic-render.png"
+    "preview": "./images/preview/realistic-render.png"
   },
   {
     "id": 15,
@@ -121,7 +121,7 @@
     "title": "Code-structuring-for-bigger-projects",
     "link": "https://code-structuring-for-bigger-projects-eta.vercel.app/",
     "github": "https://github.com/1Dire/code-structuring-for-bigger-projects",
-    "preview": "./img/preview/code-structuring-for-bigger-projects.png"
+    "preview": "./images/preview/code-structuring-for-bigger-projects.png"
   },
   {
     "id": 16,
@@ -129,7 +129,7 @@
     "title": "Shaders",
     "link": "https://shaders-pink.vercel.app/",
     "github": "https://github.com/1Dire/shaders",
-    "preview": "./img/preview/shaders.png"
+    "preview": "./images/preview/shaders.png"
   },
   {
     "id": 17,
@@ -137,7 +137,7 @@
     "title": "Shader-patterns",
     "link": "https://shader-patterns-rho.vercel.app/",
     "github": "https://github.com/1Dire/shader-patterns",
-    "preview": "./img/preview/shader-patterns.png"
+    "preview": "./images/preview/shader-patterns.png"
   },
   {
     "id": 18,
@@ -145,7 +145,7 @@
     "title": "Raging-sea",
     "link": "https://raging-sea-psi.vercel.app/",
     "github": "https://github.com/1Dire/raging-sea",
-    "preview": "./img/preview/raging-sea.png"
+    "preview": "./images/preview/raging-sea.png"
   },
   {
     "id": 18,
@@ -153,7 +153,7 @@
     "title": "Animated-galaxy",
     "link": "https://animated-galaxy-black.vercel.app/",
     "github": "https://github.com/1Dire/animated-galaxy",
-    "preview": "./img/preview/animated-galaxy.png"
+    "preview": "./images/preview/animated-galaxy.png"
   },
   {
     "id": 19,
@@ -161,7 +161,7 @@
     "title": "Post-processing",
     "link": "https://dire-post-processing.vercel.app/",
     "github": "https://github.com/1Dire/post-processing",
-    "preview": "./img/preview/post-processing.png"
+    "preview": "./images/preview/post-processing.png"
   },
   {
     "id": 20,
@@ -169,7 +169,7 @@
     "title": "Intro-and-loading-progres",
     "link": "https://dire-intro-and-loding-progress.vercel.app/",
     "github": "https://github.com/1Dire/intro-and-loading-progress",
-    "preview": "./img/preview/intro-and-loading-progress.png"
+    "preview": "./images/preview/intro-and-loading-progress.png"
   },
   {
     "id": 21,
@@ -177,7 +177,7 @@
     "title": "Mixing-html-and-webgl",
     "link": "https://dire-mixing-html-and-webgl.vercel.app/",
     "github": "https://github.com/1Dire/mixing-html-and-webgl",
-    "preview": "./img/preview/mixing-html-and-webgl.png"
+    "preview": "./images/preview/mixing-html-and-webgl.png"
   },
   {
     "id": 22,
@@ -185,7 +185,7 @@
     "title": "Blender",
     "link": "https://dire-blender.vercel.app/",
     "github": "https://github.com/1Dire/dire-blender",
-    "preview": "./img/preview/blender.png"
+    "preview": "./images/preview/blender.png"
   },
   {
     "id": 23,
@@ -193,7 +193,7 @@
     "title": "Load-models-with-r3f",
     "link": "https://https://load-models-with-r3f-eta.vercel.app/",
     "github": "https://github.com/1Dire/load-models-with-r3f/tree/main",
-      "preview": "./img/preview/load-models-with-r3f.png"
+    "preview": "./images/preview/load-models-with-r3f.png"
   },
   {
     "id": 24,
@@ -201,15 +201,14 @@
     "title": "Create-a-game",
     "link": "https://dire-create-a-game-with-r3f.vercel.app/",
     "github": "https://github.com/1Dire/dire-create-a-game-with-r3f/tree/main",
-    "preview": "./img/preview/create-a-game.png"
+    "preview": "./images/preview/create-a-game.png"
   },
   {
     "id": 25,
     "type": "Three.js",
-    "title": "Portfolio",
+    "title": "My world",
     "link": "https://sangwoo-portfolio.vercel.app/",
     "github": "https://github.com/1Dire/sangwoo-portfolio",
-    "preview": "./img/preview/portfolio.png"
+    "preview": "./images/preview/portfolio.png"
   }
-
 ]

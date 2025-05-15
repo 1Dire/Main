@@ -1,0 +1,132 @@
+:root {
+  --white: white;
+  --gray-light: #aaaaa9;
+  --gray-dark: #575556;
+  --yellow: #f0c756;
+}
+
+footer {
+  background-color: #2792cb;
+  position: relative;
+  height: 300px;
+}
+.box-canvas {
+  position: absolute;
+  right: 50px;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.box-canvas::before {
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  background: #67b3da;
+  bottom: 0;
+  left: -50px;
+  border-radius: 30% 70% 23% 77% / 53% 30% 70% 47%;
+}
+
+.body {
+  top: 30px;
+  width: 150px;
+  height: 70px;
+  position: absolute;
+  background: var(--white);
+  border-radius: 0 50% 50% 50%;
+  left: 15px;
+}
+
+.wing {
+  position: absolute;
+  left: 30px;
+  top: -4px;
+  width: 125px;
+  height: 60px;
+  background: var(--gray-light);
+  border-radius: 25% 75% 9% 91% / 64% 78% 22% 36%;
+  overflow: hidden;
+}
+
+.tail {
+  position: absolute;
+  background: var(--gray-dark);
+  width: 120px;
+  top: 20px;
+  height: 30px;
+  right: -40px;
+  transform: rotate(20deg);
+  border-radius: 0 50% 50% 0;
+}
+
+.neck {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+  background: var(--white);
+  border-radius: 50% 50% 0 0;
+}
+
+.head {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% 50% 0 50%;
+  background: var(--white);
+}
+
+.head::before {
+  content: "";
+  left: 10px;
+  top: 10px;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 50%;
+  border: 2px solid var(--yellow);
+}
+
+.beak {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  left: -26px;
+  height: 15px;
+  background: var(--yellow);
+  border-radius: 91% 9% 9% 91% / 100% 40% 60% 0%;
+}
+
+.leg {
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  background: var(--yellow);
+}
+
+.leg.left {
+  left: 60px;
+  top: 70px;
+}
+
+.leg.right {
+  left: 80px;
+  top: 80px;
+}
+
+.leg::before {
+  content: "";
+  position: absolute;
+  background: var(--yellow);
+  width: 20px;
+  height: 25px;
+  clip-path: polygon(38% 0, 58% 0, 100% 100%, 0% 100%);
+  bottom: -20px;
+  transform: rotate(40deg);
+  left: -14px;
+}

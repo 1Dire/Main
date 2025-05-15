@@ -1,27 +1,149 @@
 html {
-  background-color: #e7d6c4;
-  color: #4b3c31;
-  font-family: 'Noto Sans', sans-serif;
 }
 
-h1 {
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to top,
+    #fceabb 0%,
+    #f8d29d 20%,
+    #a2d4f3 80%,
+    #87ceeb 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* 여기에 추가 */
+  font-family: "Noto Sans", sans-serif;
+}
+article{
+    padding-bottom: 50px;
+}
+h2 {
   text-align: center;
-  font-size: 2.5em;
-  color: #4b3c31;
-  margin-top: 20px;
-  font-weight: bold;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  color: #222;
 }
 
-.button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+.masonry {
+  column-count: 3;
+  column-gap: 1.5rem;
 }
 
-.intro {
-  font-family: 'Noto Sans', sans-serif;
-  color: #4b3c31;
+@media (max-width: 992px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .masonry {
+    column-count: 1;
+  }
+}
+
+.portfolio-card {
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  transform: translateY(-6px);
+  border-color: #bbb;
+}
+
+.thumb-wrapper {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.portfolio-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  border-radius: 10px 10px 0 0;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-img:hover {
+  transform: scale(1.07);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #222;
+  margin: 0.8rem 1rem 0.4rem 1rem;
+}
+
+.project-desc {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin: 0 1rem 1rem 1rem;
+}
+
+/* 모달 스타일 */
+#modalImage {
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  padding: 1rem;
+}
+
+.modal-description {
+  background-color: #fff;
+  color: #333;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 12px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.tech-icons {
+  margin: 0 1rem 1rem 1rem;
+  font-size: 1.5rem;
+}
+.tech-icons i {
+  margin-right: 0.5rem;
+}
+
+.intro-text {
+  font-family: "Noto Sans", sans-serif;
+  color: #daf5e7;
   background-color: #f5f5f0;
   padding: 20px;
   margin: 20px auto;
@@ -31,23 +153,13 @@ h1 {
   font-size: 1.1em;
 }
 
-.intro p {
-  margin-bottom: 15px;
-  line-height: 1.6;
-}
 
-.intro strong {
-  color: #c27f4a;
-  font-size: 1.2em;
-  padding-right: 5px;
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
-
-.intro span.emoji {
-  font-size: 1.4em;
-  margin-right: 8px;
-  vertical-align: middle;
-}
-
 .button-container button {
   padding: 2px 5px;
   font-size: 12px;

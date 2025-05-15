@@ -2,65 +2,458 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sangwoo Lee's ToyProject📝</title>
-    
-    <!-- TUI Grid CSS -->
-    <link rel="stylesheet" href="https://uicdn.toast.com/tui.grid/latest/tui-grid.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/snow.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJ+6CwXwEw2qmiS4cFb4XwoqJHk15l8ujSFWJWJklXZ9gghW+Z9ySTnpqk+a" crossorigin="anonymous">
-  </head>
-  
+    <title>포트폴리오 이미지</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://uicdn.toast.com/tui.grid/latest/tui-grid.min.css"
+    />
 
-  
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/beach.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
   <body>
-    <h1 class="text-center mt-3 mb-4">Sangwoo Lee's ToyProject 💻</h1>
-    
-    <div class="language-buttons mb-4">
-      <button class="language-btn selected" data-language="ko" id="btn-ko">
-        <img src="https://flagcdn.com/w320/kr.png" alt="한국어" />
-      </button>
-      <button class="language-btn" data-language="en" id="btn-en">
-        <img src="https://flagcdn.com/w320/us.png" alt="English" />
-      </button>
-    </div>
-    
-    <section class="intro pb-3 mb-4">
-      <p data-i18n="introText1" class="mb-3">
-        이 페이지는 제가 학습한 내용과 실습을 기록하고 공유하는 곳입니다. 다양한 기술과 도구들을 실험하고, 그 과정에서 배운 점들을 기록하여 발전해 나가고 있습니다. 각 프로젝트를 통해 얻은 경험을 나누고, 다른 사람들과 소통하며 더 나은 개발자가 되기 위해 노력하고 있습니다.
-      </p>
-      <p data-i18n="introText2" class="mb-3">
-        웹 개발, 데이터 분석, 그리고 기타 다양한 주제를 다루며, 각 프로젝트는 제 개인적인 학습과 성장의 여정을 담고 있습니다.
-      </p>
-      <p>
-        <strong data-i18n="introText3">이 페이지는 차차 업데이트 됩니다.</strong>
-      </p>
-    </section>
-    
-    <section>
-      <div id="grid" style="width:97%;margin:30px auto; height: 800px;"></div>
-    </section>
-    
-    <footer class="footer mt-5  text-center">
-      <div class="footer-content">
-        <p>🥳 Happy new years !!🎉</p>
-        <p>Made with ❤️ by Sangwoo Lee</p>
+    <article class="">
+      <section class="container">
+        <h2 class="my-4">💻 Dire's Portfolio</h2>
+        <p class="intro-text text-secondary">
+          제가 실제로 만들어서 서비스했던 프로젝트들을 간단하게 정리했습니다.
+        </p>
+        <div class="masonry">
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/hansan_1.png"
+            data-bs-title="한산펜션v1"
+          >
+            <div class="thumb-wrapper">
+              <img
+                src="images/hansan_1.png"
+                alt="한산펜션 이미지 1"
+                class="portfolio-img"
+              />
+            </div>
+            <h3 class="project-title">한산펜션 v1</h3>
+            <p class="project-desc">
+              독학으로 시작하여 친척의 믿음으로 작업을 맡아 지금까지 직접
+              관리하는 홈페이지입니다. 처음 만들었을 때는 부족한 점이 많았으나,
+              꾸준한 리뉴얼로 점점 발전해 나가고 있습니다.
+            </p>
+
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-html5-plain colored" title="HTML5"></i>
+              <i class="devicon-css3-plain colored" title="CSS3"></i>
+              <i
+                class="devicon-javascript-plain colored"
+                title="JavaScript"
+              ></i>
+              <i class="devicon-php-plain colored" title="PHP"></i>
+              <i class="devicon-mysql-plain colored" title="MySQL"></i>
+            </div>
+          </div>
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/2.png"
+          >
+            <div class="thumb-wrapper">
+              <img src="images/2.png" alt="SoaCloset" class="portfolio-img" />
+            </div>
+            <h3 class="project-title">SoaCloset</h3>
+            <p class="project-desc">
+              일본인 여성 고객을 타겟으로 한 쇼핑몰의 디자인 및 퍼블리싱을
+              전반적으로 담당했습니다.<br />
+              UI/UX 설계, 배너 디자인, 상품 상세 페이지 구성 등 모든 디자인과
+              퍼블리싱 작업을 직접 수행했습니다.<br />
+              소규모 조직 내에서 대표와 함께 시장 조사를 진행하며 타겟층에 맞는
+              콘텐츠 기획과 제작을 병행했습니다.<br />
+            </p>
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-html5-plain colored" title="HTML5"></i>
+              <i class="devicon-css3-plain colored" title="CSS3"></i>
+              <i
+                class="devicon-javascript-plain colored"
+                title="JavaScript"
+              ></i>
+              <i class="devicon-php-plain colored" title="PHP"></i>
+              <i class="devicon-mysql-plain colored" title="MySQL"></i>
+            </div>
+          </div>
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/3.jpg"
+          >
+            <div class="thumb-wrapper">
+              <img
+                src="images/3.jpg"
+                alt="도시가스 모니터링 3"
+                class="portfolio-img"
+              />
+            </div>
+            <h3 class="project-title">구름아래 오토캠핑장</h3>
+            <p class="project-desc">
+              고객사의 오토캠핑장 반응형 예약 및 문자 안내 서비스 홈페이지를
+              디자인하고 제작했습니다. 숙박 예약과 문자 API를 통해 고객사와
+              담당자에게 문자 안내 서비스를 구현했습니다. 테스트 케이스 부족으로
+              예외처리를 놓친 경험을 통해, 시스템 흐름과 테스트의 중요성을
+              배웠습니다.
+            </p>
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-html5-plain colored" title="HTML5"></i>
+              <i class="devicon-css3-plain colored" title="CSS3"></i>
+              <i
+                class="devicon-javascript-plain colored"
+                title="JavaScript"
+              ></i>
+              <i class="devicon-mysql-plain colored" title="MySQL"></i>
+              <i class="devicon-php-plain colored" title="PHP"></i>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/1.png"
+          >
+            <div class="thumb-wrapper">
+              <img src="images/1.png" alt="MES" class="portfolio-img" />
+            </div>
+            <h3 class="project-title">MES</h3>
+            <p class="project-desc">
+              프로젝트 규모가 커지며 명확한 개발 기준의 중요성을 깨달았습니다.
+              이를 위해 개발 컨셉과 기준을 문서화해 팀과 공유하고, 프론트엔드
+              역량이 부족한 동료를 적극 지원했습니다. 이러한 노력으로 팀워크가
+              강화되고 프로젝트 효율과 완성도가 크게 향상되었습니다.
+            </p>
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-vuejs-plain colored" title="Vue.js"></i>
+              <i class="devicon-spring-plain colored" title="Spring Boot"></i>
+              <i
+                class="devicon-microsoftsqlserver-plain colored"
+                title="MSSQL"
+              ></i>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/hansan_2.png"
+          >
+            <div class="thumb-wrapper">
+              <img
+                src="images/hansan_2.png"
+                alt="한산펜션 이미지 2"
+                class="portfolio-img"
+              />
+            </div>
+            <h3 class="project-title">한산펜션 v2</h3>
+            <p class="project-desc">
+              바쁜 직장 생활 속에서도 끊임없는 열정으로 완성한 프로젝트입니다.
+              친척의 요구사항을 반영하여 요금 정책을 체계적으로 개편하고, 사용자
+              경험을 고려한 세련된 디자인 리뉴얼을 통해 더욱 편리하고 현대적인
+              예약 시스템을 구축했습니다.
+            </p>
+
+            <div class="text-center mb-3">
+              <a
+                href="http://www.hansanpension.co.kr/"
+                target="_blank"
+                class="btn btn-primary px-4 py-2 fw-bold"
+                style="font-size: 1rem"
+              >
+                🔗 홈페이지 바로가기
+              </a>
+            </div>
+
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-html5-plain colored" title="HTML5"></i>
+              <i class="devicon-css3-plain colored" title="CSS3"></i>
+              <i
+                class="devicon-javascript-plain colored"
+                title="JavaScript"
+              ></i>
+              <i class="devicon-php-plain colored" title="PHP"></i>
+
+              <i class="devicon-mysql-plain colored" title="MySQL"></i>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/4.jpg"
+          >
+            <div class="thumb-wrapper">
+              <img
+                src="images/4.jpg"
+                alt="퍼스널모빌리티 쇼"
+                class="portfolio-img"
+              />
+            </div>
+            <h3 class="project-title">퍼스널모빌리티 쇼</h3>
+            <p class="project-desc">
+              고객사 의 요청으로 2020년 퍼스널 모빌리티 홍보 사이트를
+              제작했습니다. 고객사가 정한 보라색 테마의 요청에 맞춰 조화로운
+              색상과 디자인을 구현하였고, 디자인팀으로부터 기획, 컨셉, 구성 등
+              전반적으로 높은 평가를 받아 큰 성장과 동기부여가 되었습니다.
+            </p>
+
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-html5-plain colored" title="HTML5"></i>
+              <i class="devicon-css3-plain colored" title="CSS3"></i>
+              <i
+                class="devicon-javascript-plain colored"
+                title="JavaScript"
+              ></i>
+              <i class="devicon-php-plain colored" title="PHP"></i>
+
+              <i class="devicon-mysql-plain colored" title="MySQL"></i>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/5.png"
+          >
+            <div class="thumb-wrapper">
+              <img
+                src="images/5.png"
+                alt="부산 보행자의 날"
+                class="portfolio-img"
+              />
+            </div>
+            <h3 class="project-title">부산 보행자의 날</h3>
+            <p class="project-desc">
+              고객사 포유 커뮤니케이션즈의 보행자의 날 걷기대회 사전 참가 페이지
+              제작과 참가자 명단 수집을 맡았습니다. 처음엔 소통 부재로 과도한
+              개발이 진행됐으나, 빠르게 본인인증과 주소지 등록 API를 제거해
+              납품하였습니다. 특히, 이 프로젝트에서 로고 제작도 함께 담당하며
+              고객사와의 원활한 소통과 업무 효율의 중요성을 깊이 깨달았습니다.
+              결과적으로 개인 역량 성장에 큰 도움이 된 프로젝트였습니다.
+            </p>
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-html5-plain colored" title="HTML5"></i>
+              <i class="devicon-css3-plain colored" title="CSS3"></i>
+              <i
+                class="devicon-javascript-plain colored"
+                title="JavaScript"
+              ></i>
+              <i class="devicon-php-plain colored" title="PHP"></i>
+              <i class="devicon-mysql-plain colored" title="MySQL"></i>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/6.png"
+          >
+            <div class="thumb-wrapper">
+              <img
+                src="images/6.png"
+                alt="다이나믹 부산 설문조사"
+                class="portfolio-img"
+              />
+            </div>
+            <h3 class="project-title">다이내믹 부산 설문조사</h3>
+            <p class="project-desc">
+              고객사 다이내믹 부산의 구독자 조사용 모바일 정보수집 플랫폼 제작
+              프로젝트입니다. 처음 도전한 데이터 시각화와 엑셀 통계 기능 구현을
+              통해 좋은 평가를 받았으며, 부족한 부분은 꾸준한 학습으로 보완하는
+              계기가 되었습니다.
+            </p>
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-react-original colored" title="React"></i>
+              <i class="devicon-php-plain colored" title="PHP"></i>
+              <i class="devicon-oracle-original colored" title="Oracle"></i>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/8.jpg"
+          >
+            <div class="thumb-wrapper">
+              <img src="images/8.jpg" alt="Elscom" class="portfolio-img" />
+            </div>
+            <h3 class="project-title">Elscom</h3>
+            <p class="project-desc">
+              고객사 ELSCOM으로부터 이전 전자 카탈로그 프로젝트에 대한 만족으로
+              반응형 웹 페이지 제작을 맡았습니다. 회사 메인 테마색에 어울리는
+              세련된 디자인을 구현하여 양측 모두 만족스러운 결과를
+              이끌어냈습니다.
+            </p>
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-html5-plain colored" title="HTML5"></i>
+              <i class="devicon-css3-plain colored" title="CSS3"></i>
+              <i
+                class="devicon-javascript-plain colored"
+                title="JavaScript"
+              ></i>
+              <i class="devicon-php-plain colored" title="PHP"></i>
+              <i class="devicon-mysql-plain colored" title="MySQL"></i>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/9.png"
+          >
+            <div class="thumb-wrapper">
+              <img
+                src="images/9.png"
+                alt="Elscom 전자카탈로그"
+                class="portfolio-img"
+              />
+            </div>
+            <h3 class="project-title">Elscom 전자카탈로그</h3>
+            <p class="project-desc">
+              고객사 ELSCOM을 위해 오프라인에서도 태블릿으로 제품을 소개할 수
+              있는 전자 카탈로그를 제작했습니다. 고객의 요청에 따라 대표 상징인
+              오렌지와 고급스러운 검은색 테마를 조화롭게 반영한 디자인으로
+              완성했습니다.
+            </p>
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-react-original colored" title="React"></i>
+            </div>
+          </div>
+          <div
+            class="portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-bs-image="images/cityGas.png"
+          >
+            <div class="thumb-wrapper">
+              <img
+                src="images/cityGas.png"
+                alt="Elscom 전자카탈로그"
+                class="portfolio-img"
+              />
+            </div>
+            <h3 class="project-title">현대중공업 도시가스 모니터링</h3>
+            <p class="project-desc">
+              사물인터넷 데이터 시각화 및 위험 알림 시스템 개발. 현대중공업
+              단지를 게임 미니맵처럼 구현하여, 정확한 위치와 좌표를 표시하고,
+              문제 발생 시 데이터 기반으로 지도에서 실시간 제어할 수 있도록
+              설계했습니다.
+            </p>
+            <div class="px-3 pb-3 d-flex gap-3 fs-3">
+              <i class="devicon-vuejs-plain colored" title="Vue.js"></i>
+              <i class="devicon-spring-plain colored" title="Spring Boot"></i>
+              <i
+                class="devicon-microsoftsqlserver-plain colored"
+                title="MSSQL"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <h2 class="my-4">💻 Dire's ToyProject</h2>
+        <p class="intro-text text-secondary">
+          <span>
+            이 페이지는 제가 학습한 내용과 실습을 기록하고 공유하는 곳입니다.
+            다양한 기술과 도구들을 실험하고, 그 과정에서 배운 점들을 기록하여
+            발전해 나가고 있습니다. 각 프로젝트를 통해 얻은 경험을 나누고, 다른
+            사람들과 소통하며 더 나은 개발자가 되기 위해 노력하고 있습니다.<br />
+          </span>
+          <span>
+            웹 개발, 데이터 분석, 그리고 기타 다양한 주제를 다루며, 각
+            프로젝트는 제 개인적인 학습과 성장의 여정을 담고 있습니다.
+          </span>
+        </p>
+        <!-- TUI Grid JS -->
+        <div>
+          <div id="grid" style="height: 800px"></div>
+        </div>
+      </section>
+      <!-- 모달 -->
+      <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 position-relative">
+              <button
+                type="button"
+                class="btn-close position-absolute top-0 end-0 m-3"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+              <img
+                id="modalImage"
+                src=""
+                class="img-fluid w-100"
+                alt="Modal Image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <footer class="text-white py-4">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center text-center"
+      >
+        <p class="mb-2">© 2025 Dire's Portfolio</p>
+        <a
+          href="https://github.com/1Dire"
+          target="_blank"
+          class="fs-3 text-white"
+          title="Visit my GitHub"
+        >
+          <i class="devicon-github-original"></i>
+        </a>
+      </div>
+
+      <div class="box-canvas">
+        <div class="leg left"></div>
+        <div class="leg right"></div>
+        <div class="neck"></div>
+        <div class="head">
+          <div class="beak"></div>
+        </div>
+        <div class="body">
+          <div class="tail"></div>
+          <div class="wing"></div>
+        </div>
       </div>
     </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-kaVZ2p20NMb2t4AqFdbBd2CTkCQ7WwRGH0HX14bf3wwGppJ83wYkD9K1J72QCUcC" crossorigin="anonymous"></script>
-
-    <!-- TUI Grid JS -->
     <script src="https://uicdn.toast.com/tui.grid/latest/tui-grid.js"></script>
-    
-    <!-- Custom Scripts -->
     <script src="js/grid.js"></script>
-    <script src="js/i18n.js"></script>
-    <script src="js/snow.js"></script>
+    <!-- Bootstrap JS + Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const imageModal = document.getElementById("imageModal");
+      imageModal.addEventListener("show.bs.modal", function (event) {
+        const card = event.relatedTarget;
+        const modalImg = document.getElementById("modalImage");
+        modalImg.src = card.getAttribute("data-bs-image");
+      });
+    </script>
   </body>
 </html>
