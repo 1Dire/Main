@@ -210,5 +210,19 @@
     "link": "https://sangwoo-portfolio.vercel.app/",
     "github": "https://github.com/1Dire/sangwoo-portfolio",
     "preview": "./images/preview/portfolio.png"
+  },
+  {
+    "id": 26,
+    "type": "React + Vite",
+    "title": "한산펜션 v3 FrontEnd",
+    "link": "http://61.75.57.247:5173/",
+    "github": "https://github.com/1Dire/booking"
+  },
+  {
+    "id": 27,
+    "type": "Java",
+    "title": "한산펜션 v3 BackEnd",
+    "link": "",
+    "github": "https://github.com/1Dire/hansanpension-backend"
   }
 ]
