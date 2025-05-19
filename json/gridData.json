@@ -229,8 +229,8 @@
     "id": 27,
     "type": "Docker",
     "title": "Docker Study",
-    "link": "https://dire-docker-study.vercel.app/",
-    "github": "https://github.com/1Dire/springboot-docker",
+    "link": "https://dire-docker-study.vercel.app",
+    "github": "https://github.com/1Dire/docker-study",
     "preview": "./images/preview/docker-study.png"
   }
 ]
